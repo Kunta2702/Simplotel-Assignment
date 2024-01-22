@@ -122,7 +122,7 @@ body {
 @media(max-width:575px) {
 
     .navbar h1 {
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .navbar-img {
@@ -130,25 +130,47 @@ body {
         height: 10px;
     }
 
+    .bg-container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .homepage-textcontainer {
+        height: 62vh;
+        width: 95vw;
+        order: 1;
+
+    }
+
+    .homepage1 img {
+        order: 0;
+        height: 28vh;
+        width: 100vw;
+
+    }
+
+
     .stage-colony-imgs-container img {
 
         width: 70px;
-        height: 70px;
+        height: 110px;
     }
 
     .homepage2-food-item-img {
-        height: 160px;
+        height: 240px;
         width: 70px;
         margin-left: 7px;
         margin-right: 14px;
     }
 
     .homepage2-text-container p {
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .homepage2-text-container h1 {
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .homepage2-text-container img {
@@ -261,4 +283,25 @@ body {
         height: 50px;
         margin-left: 10px;
     }
+}
+
+
+@media(max-height:609px) and (min-width:1199px) {
+    .stage-colony-imgs-container img {
+
+        width: 400px;
+        height: 200px;
+    }
+
+    .homepage2-food-item-img {
+        height: 420px;
+        width: 400px;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+
+
+
+
 }
