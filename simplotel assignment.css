@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F88379;
+
+    color: black;
+    width: 100vw;
+    height: 10vh;
+
+}
+
+.navbar h1 {
+    margin-right: 21px;
+}
+
+.navbar-img {
+    width: 40px;
+    height: 40px;
+}
+
+.homepage2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #f7e9a8, #f58cee);
+
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.homepage1 img {
+    overflow: auto;
+    width: 50vw;
+}
+
+.homepage-textcontainer {
+    background-image: linear-gradient(to right, #f7e9a8, #f58cee);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50vw;
+}
+
+.homepage-textcontainer button {
+    background-color: #F88379;
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 0;
+}
+
+.homepage2-imgs-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.stage-colony-imgs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.homepage2-text-container {
+    background-color: #F88379;
+    padding: 10px;
+
+}
+
+
+.click-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stage-colony-imgs-container img {
+
+    width: 270px;
+    height: 270px;
+}
+
+.homepage2-food-item-img {
+    height: 560px;
+    width: 270px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+.homepage2-text-container p {
+    font-size: 30px;
+}
+
+.homepage2-text-container h1 {
+    font-size: 30px;
+}
+
+.homepage2-text-container img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+@media(max-width:575px) {
+
+    .navbar h1 {
+        font-size: 8px;
+    }
+
+    .navbar-img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .stage-colony-imgs-container img {
+
+        width: 70px;
+        height: 70px;
+    }
+
+    .homepage2-food-item-img {
+        height: 160px;
+        width: 70px;
+        margin-left: 7px;
+        margin-right: 14px;
+    }
+
+    .homepage2-text-container p {
+        font-size: 6px;
+    }
+
+    .homepage2-text-container h1 {
+        font-size: 6px;
+    }
+
+    .homepage2-text-container img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+
+    .navbar h1 {
+        font-size: 18px;
+
+    }
+
+    .navbar-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .stage-colony-imgs-container img {
+
+        width: 120px;
+        height: 120px;
+    }
+
+    .homepage2-food-item-img {
+        height: 260px;
+        width: 120px;
+        margin-left: 7px;
+        margin-right: 14px;
+    }
+
+    .homepage2-text-container p {
+        font-size: 16px;
+    }
+
+    .homepage2-text-container h1 {
+        font-size: 16px;
+    }
+
+    .homepage2-text-container img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+    .navbar h1 {
+        font-size: 26px;
+    }
+
+    .navbar-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .stage-colony-imgs-container img {
+
+        width: 160px;
+        height: 160px;
+    }
+
+    .homepage2-food-item-img {
+        height: 340px;
+        width: 160px;
+        margin-left: 7px;
+        margin-right: 14px;
+    }
+
+    .homepage2-text-container p {
+        font-size: 26px;
+    }
+
+    .homepage2-text-container h1 {
+        font-size: 26px;
+    }
+
+    .homepage2-text-container img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .stage-colony-imgs-container img {
+
+        width: 200px;
+        height: 200px;
+    }
+
+    .homepage2-food-item-img {
+        height: 420px;
+        width: 200px;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+    .homepage2-text-container p {
+        font-size: 30px;
+    }
+
+    .homepage2-text-container h1 {
+        font-size: 30px;
+    }
+
+    .homepage2-text-container img {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+}
